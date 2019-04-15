@@ -1,6 +1,4 @@
 require "darnel_view_tool/version"
+require "darnel_view_tool/renderer"
 
-module DarnelViewTool
-  class Error < StandardError; end
-  # Your code goes here...
-end
+
