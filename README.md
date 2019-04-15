@@ -1,8 +1,12 @@
 # DarnelViewTool
 
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/darnel_view_tool`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
+
+>Various view specfic methods for application I use.
+
 
 ## Installation
 
@@ -22,8 +26,12 @@ Or install it yourself as:
 
 ## Usage
 
+
 TODO: Write usage instructions here
 
+```ruby
+DarnelViewTool::Renderer.copyright 'Guinel Gue', 'All right reserved'
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
