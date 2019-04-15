@@ -19,8 +19,9 @@ Or install it yourself as:
     $ gem install darnel_view_tool
 
 ## Usage
-
-TODO: Write usage instructions here
+```ruby
+DarnelViewTool::Renderer.copyright 'Guinel Gue', 'All right reserved'
+```
 
 ## Development
 
